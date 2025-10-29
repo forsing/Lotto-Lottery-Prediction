@@ -91,7 +91,7 @@ algorithm_globals.random_seed = SEED
 
 
 # ✅ Load data
-df = pd.read_csv("/Users/milan/Desktop/GHQ/data/loto7_4502_k85.csv", header=None)
+df = pd.read_csv("/data/loto7_4502_k85.csv", header=None)
 print()
 print("✅ Data loaded successfully.")
 print()
@@ -382,11 +382,11 @@ print("🔮 Predicted Next Lottery Numbers lr X y:", predicted_numbers_lr)
 print("🔮 Predicted Next Lottery Numbers gbr X y:", predicted_numbers_gbr)
 print()
 """
-🔮 Predicted Next Lottery Numbers dtr X y: [[ 3  5 11 13 19 37 39]]
-🔮 Predicted Next Lottery Numbers KNN X y: [[ 5  9 14 18 26 32 35]]
-🔮 Predicted Next Lottery Numbers rfr X y: [[ 5 10 15 20 25 30 35]]
+🔮 Predicted Next Lottery Numbers dtr X y: [[ 3  5 x x x 37 39]]
+🔮 Predicted Next Lottery Numbers KNN X y: [[ 5  9 x x x 32 35]]
+🔮 Predicted Next Lottery Numbers rfr X y: [[ 5 10 x x x 30 35]]
 🔮 Predicted Next Lottery Numbers lr X y: [[ 5 10 15 20 25 30 35]]
-🔮 Predicted Next Lottery Numbers gbr X y: [[ 5 12 15 21 28 31 37]]
+🔮 Predicted Next Lottery Numbers gbr X y: [[ 5 12 x x x 31 37]]
 """
 
 
@@ -453,11 +453,11 @@ print("🎯 Predicted Next Lottery Numbers gbr X_x y_x for mapped data:",predict
 
 print()
 """
-🎯 Predicted Next Lottery Numbers dtr X_x y_x for mapped data: [[ 2  3  8  9 14 31 32]]
-🎯 Predicted Next Lottery Numbers KNN X_x y_x for mapped data: [[ 4  7 11 14 21 26 28]]
-🎯 Predicted Next Lottery Numbers rfr X_x y_x for mapped data: [[ 4  8 12 16 20 24 28]]
-🎯 Predicted Next Lottery Numbers lr X_x y_x for mapped data: [[ 4  8 12 16 20 24 28]]
-🎯 Predicted Next Lottery Numbers gbr X_x y_x for mapped data: [[ 4 10 12 17 23 25 30]]
+🎯 Predicted Next Lottery Numbers dtr X_x y_x for mapped data: [[ 2  3 x x x 31 32]]
+🎯 Predicted Next Lottery Numbers KNN X_x y_x for mapped data: [[ 4  7 x x x 26 28]]
+🎯 Predicted Next Lottery Numbers rfr X_x y_x for mapped data: [[ 4  8 x x x 24 28]]
+🎯 Predicted Next Lottery Numbers lr X_x y_x for mapped data: [[ 4  8 x x x 24 28]]
+🎯 Predicted Next Lottery Numbers gbr X_x y_x for mapped data: [[ 4 10 x x x 25 30]]
 """
 
 
