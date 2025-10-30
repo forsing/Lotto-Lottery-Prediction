@@ -2,6 +2,13 @@ from __future__ import annotations, absolute_import, division, print_function, u
 
 
 """
+Loto Skraceni Sistemi 
+https://www.lotoss.info
+ABBREVIATED LOTTO SYSTEMS
+"""
+
+
+"""
 Lotto/Lottery Prediction 
 
 Klasicni regresori: 
